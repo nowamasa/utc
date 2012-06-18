@@ -1,0 +1,35 @@
+{
+  "name": "utc",
+  "description": "underscore.js template compiler",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nowamasa/utc",
+  "author": {
+    "name": "nowamasa",
+    "email": "nowamasa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nowamasa/utc.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nowamasa/utc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/utc",
+  "engines": {
+    "node": "~0.6.17"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.3.9"
+  },
+  "keywords": []
+}
