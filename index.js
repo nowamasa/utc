@@ -6,6 +6,5 @@
  * Licensed under the MIT license.
  */
 
-exports.awesome = function() {
-  return 'awesome';
-};
+require('coffee-script');
+require('./lib/cli')();

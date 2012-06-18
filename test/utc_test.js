@@ -1,4 +1,4 @@
-var utc = require('../lib/utc.js');
+var utc = require('../index.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -26,9 +26,9 @@ exports['awesome'] = {
     done();
   },
   'no args': function(test) {
-    test.expect(1);
+    //test.expect(1);
     // tests here
-    test.equal(utc.awesome(), 'awesome', 'should be awesome.');
+    //test.equal(utc.awesome(), 'awesome', 'should be awesome.');
     test.done();
   }
 };
