@@ -1,2 +1,12 @@
+commander = require('commander')
+Program   = require('./program')
+
 module.exports = ->
-    console.log(process.argv);
+    commander
+        .version('0.1.0')
+        .option('-o, --folder [folder]', 'Specify the template folder', 'templates')
+        .option('-s, --fileSuffix [suffix]', 'Specify the file suffix', 'Template')
+        .option('-f, --functionSuffix [suffix]', 'Specify the function suffix', 'String')
+        .parse(process.argv)
+
+    new Program().run(commander)
