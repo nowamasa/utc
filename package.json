@@ -1,6 +1,6 @@
 {
     "name"        : "utc",
-    "description" : "underscore.js template compiler",
+    "description" : "Simple underscore.js template compiler.",
     "version"     : "0.1.0",
     "homepage"    : "https://github.com/nowamasa/utc",
 
@@ -47,5 +47,5 @@
         "grunt" : "~0.3.9"
     },
 
-    "keywords" : []
+    "keywords" : ["AMD", "template compiler", "underscore"]
 }
