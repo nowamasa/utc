@@ -7,18 +7,16 @@ Install the module with: `npm install -g utc`
 ## Using utc (CLI)
 Once you have installed utc type `utc --help` to see all available options
 
-    `
     Options:
         -h, --help              output usage information
         -V, --version           output the version number
         -o, --folder            specify the template folder
         -s, --fileSuffix        specify the file suffix
         -f, --functionSuffix    specify the function suffix
-    `
 
 ## Examples
 Inside 'templates' folder create a file called 'sampleTemplate.js':
-`
+
 (function () {
     define(function () {
         return {
@@ -31,9 +29,9 @@ Inside 'templates' folder create a file called 'sampleTemplate.js':
         };
     });
 }).call(this);
-`
+
 run `cli -o "templates" -s "Template" -f "Str"` and you should have the same file with a new content
-`
+
 (function () {
     define(function () {
         return{
@@ -52,7 +50,6 @@ run `cli -o "templates" -s "Template" -f "Str"` and you should have the same fil
         };
     });
 }).call(this);
-`
 
 ## License
 Copyright (c) 2012 nowamasa  
