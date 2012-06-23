@@ -30,7 +30,7 @@ Inside 'templates' folder create a file called 'sampleTemplate.js':
     });
 }).call(this);
 ```
-run `cli -d "templates" -s "Template" -f "Str"` and you should have the same file with a new content
+run `utc -d "templates" -s "Template" -f "Str"` and you should have the same file with a new content
 ```js
 (function () {
     define(function () {
