@@ -9,8 +9,8 @@ requirejs.config(
 
 class Program
     run: (commander)->
-        glob( "#{commander.folder}/**/*#{commander.fileSuffix}.js", (er, filePaths)=>
-            console.log("No matching files found in '#{commander.folder}'") unless filePaths.length
+        glob( "#{commander.directory}/**/*#{commander.fileSuffix}.js", (er, filePaths)=>
+            console.log("No matching files found in '#{commander.directory}'") unless filePaths.length
             @_processFile(filePath, commander.functionSuffix) for filePath in filePaths
         )
 
