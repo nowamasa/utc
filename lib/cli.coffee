@@ -6,7 +6,7 @@ module.exports = ->
         .version('0.1.0')
         .option('-o, --folder [folder]', 'Specify the template folder', 'templates')
         .option('-s, --fileSuffix [suffix]', 'Specify the file suffix', 'Template')
-        .option('-f, --functionSuffix [suffix]', 'Specify the function suffix', 'String')
+        .option('-f, --functionSuffix [suffix]', 'Specify the function suffix', 'Str')
         .parse(process.argv)
 
     new Program().run(commander)
