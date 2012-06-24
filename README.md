@@ -1,5 +1,6 @@
 # utc
 Simple [underscore.js](http://underscorejs.org/#template) template compiler.
+[![Build Status](https://secure.travis-ci.org/nowamasa/utc.png?branch=master)](http://travis-ci.org/nowamasa/utc)
 
 ## Getting Started
 Install the module with: `npm install -g utc`
