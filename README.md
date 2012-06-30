@@ -1,5 +1,5 @@
 # utc
-Simple [underscore.js](http://underscorejs.org/#template) template compiler.
+A simple [underscore.js](http://underscorejs.org/#template) template compiler.
 
 [![Build Status](https://secure.travis-ci.org/nowamasa/utc.png?branch=master)](http://travis-ci.org/nowamasa/utc)
 
